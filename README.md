@@ -67,13 +67,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-#
-For bootstrap version greater than or equal to v4.x.x
-1: install jquery via command:
-npm install jquery
+#For bootstrap version greater than or equal to v4.x.x
+1: install jquery via command: npm install jquery
 
-2: install proper.js via command:
-npm install popper.js --save
+2: install proper.js via command: npm install popper.js --save
 
 3: import the js scripts file (order must be same for better result):
 import 'jquery/dist/jquery.min.js';
