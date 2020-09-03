@@ -1,0 +1,103 @@
+.menuActive {
+  font-weight: bold;
+  border-bottom: 1px solid #f50057;
+}
+
+.navLink {
+  margin: 10px 10px 0 10px;
+  color: #f50057 !important;
+}
+
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: #f50057 !important;
+}
+
+.navbar a:hover {
+  color: #770a30 !important;
+  text-decoration: none;
+}
+
+.brand img {
+  height: 100px;
+}
+
+@media (min-width: 992px) {
+  #header .row {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  #header .row {
+    margin-top: auto;
+  }
+
+  .brand > img {
+    height: 60px;
+  }
+  #header .brand-name {
+    font-size: 1rem;
+  }
+  #header h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  #header h4 {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  #header .navbar-toggler {
+    font-size: 0.65rem;
+  }
+  .header-img {
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 576px and max-width: 767px) {
+  .brand img {
+    height: 60px;
+  }
+
+  #header h1 {
+    font-size: 1.5rem;
+    text-align: center !important;
+  }
+  #header .brand-name {
+    font-size: 1.5rem !important;
+  }
+  #header h4 {
+    font-size: 1.1rem;
+    text-align: center !important;
+  }
+  .header-img {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 768px and max-width: 991px) {
+  #header .row {
+    margin-top: 20px;
+  }
+  .brand img {
+    height: 80px;
+  }
+
+  .img-fluid {
+    margin-top: 30px !important;
+  }
+
+  #header h1 {
+    font-size: 1.5rem;
+    text-align: center !important;
+  }
+  #header h4 {
+    font-size: 1.1rem;
+    text-align: left !important;
+  }
+
+  #header .brand-name {
+    font-size: 1.5rem !important;
+  }
+}
